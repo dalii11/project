@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="icon" href="img/dali.PNG" type="image/png" >
+		<title>Personal page</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="main.js"></script>
+	</head>
+	<body  >
+        <div class="topnav">
+		
+			
+			<a class="active" href="#home"><img src=https://2.bp.blogspot.com/-MCD6XtM5OfY/WmrogqRXI3I/AAAAAAAAAA8/71RjAQvCZag1LjC3870wtPmT25GQnZBgACK4BGAYYCw/s400/wideal%2Blogo.png></a>
+			<a class="prom" href="index0.html">commande</a>
+			<a class="contact" href="index4.html">Contact</a>
+			
+		
+			
+			<input class="serach" type="text" placeholder="Search.." name="search">
+			<button class="postion" type="submit">search</button>
+		</div>
+		<div class="slideshow-container">
+
+			<div class="mySlides fade" >
+			 
+			  <div class="numbertext">1 / 3</div>
+			  <img src="img/deaal2.png" style="width:100%" >
+			  <div class="text"><a href="index1.html">my link</a></div>
+			</div>
+			
+			<div class="mySlides fade" >
+			  <div class="numbertext">2 / 3</div>
+			  <img src="img/deal1.png" style="width:100%">
+			  <div class="text"><a href="index2.html">my link</a></div>
+			</div>
+			
+			<div class="mySlides fade">
+			  <div class="numbertext">3 / 3</div>
+			  <img src="img/deal3.png" style="width:100%">
+			  <div class="text"><a href="index3.html">my link</a></div>
+			</div>
+			
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			
+			</div>
+
+		
+
+	
+</div>
+<div>
+<h6 class="color">NEWSLETTER</h6>
+<h4 class="soyez">Soyez<br>
+	les premiers<br>
+	à recevoir vos codes promo</h4>
+	<input name="email" id="email_newsletter" type="email" data-validation="email" placeholder="Votre Email" required="" aria-required="true">
+	<input type="submit" >
+</div>
+ <script>
+	 
+var slideIndex = 1;
+showSlides(slideIndex);
+
+ function plusSlides(n) {
+   showSlides(slideIndex += n);
+ }
+
+ function currentSlide(n) {
+   showSlides(slideIndex = n);
+ }
+
+ function showSlides(n) {
+   var i;
+   var slides = document.getElementsByClassName("mySlides");
+   var dots = document.getElementsByClassName("dot");
+   if (n > slides.length) {slideIndex = 1}    
+   if (n < 1) {slideIndex = slides.length}
+   for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+   }
+   for (i = 0; i < dots.length; i++) {
+       dots[i].className = dots[i].className.replace(" active", "");
+   }
+   slides[slideIndex-1].style.display = "block";  
+   dots[slideIndex-1].className += " active";
+ }
+ </script>
+    </body>
+	
+</html>

@@ -1,0 +1,82 @@
+
+
+ody {
+  background-color:whitesmoke;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
+  font-size: 50px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+ .topnav .search-container {
+  float: right;
+ }
+
+ .prom{
+  margin-left: 100px;
+ }
+ .contact{
+  margin-left: 200px;
+
+ }
+ .tiket{
+  margin-left: 200px;
+ }
+
+ div.search{
+  position: absolute;
+  left: 150px;
+  top: 200px;
+}
+
+.serach{
+  
+  float: right;
+  margin-top: 100px;
+
+}
+.postion{
+    float : right;
+    margin-top: 100px;
+}
+.grid-container{
+
+  display: grid;
+  grid-gap: 50px 100px;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.color{
+    color: thistle;
+}
+.Soyez{
+    color: khaki;
+}
+
+body{
+  background-image: url(img/website-background.png);
+}
+
+
+
+
